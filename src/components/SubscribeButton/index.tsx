@@ -28,7 +28,6 @@ export function SubscribeButton({ priceId }: SubscribeButtonProps) {
         // criação da checkout session
         if (session.activeSubscription) {
             router.push('/posts');
-
             return;
         }
 
